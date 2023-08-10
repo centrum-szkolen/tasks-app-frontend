@@ -11,6 +11,7 @@ const FormField = ({ isInvalid, label, onChange, value, name,placeholder }) => {
         {label}
       </FormLabel>
       <Input
+        
         name={name}
         onChange={onChange}
         placeholder={placeholder}
